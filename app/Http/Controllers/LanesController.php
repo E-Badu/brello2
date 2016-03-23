@@ -16,7 +16,7 @@ class LanesController extends Controller
     public function index()
     {
         //
-        return \App\Lane::all($id);
+        return \App\Lane::all();
     }
 
     
