@@ -4,7 +4,12 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Tags extends Model
+class Tag extends Model
 {
     //
+
+    public function task() {
+
+    	$this->belongsToMany('\App\Task');
+    }
 }
