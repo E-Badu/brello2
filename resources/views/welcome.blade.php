@@ -4,7 +4,7 @@
         <title>Laravel</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" rel="stylesheet" type="text/css">
         <style>
             html, body {
                 height: 100%;
@@ -47,7 +47,32 @@
          <script>
            var LaneModel = Backbone.Model.extend({urlRoot:"/lanes"});
            var LanesCollection = Backbone.Collection.extend({url:"/lanes", model:LaneModel})
-         </script>
+           /** 
+            snippets added in class, Originally meant for Breddit
+           var HomeView = Backbone.View.extend({
+            el:'\
+                <div class="container">\
+                    <div class="row">\
+                        <div class =" three columns">three cols</div>\
+                        <div class="six columns">\
+                            <div class="row">\
+                                <div class="twelve columns"></div>\
+                            </div>\
+                            <div class="row">\
+                                <div class="twelve columns"></div>\
+                            </div>\
+                        </div>\   
+        '
+        
+        render: function() {
+            this.$el.html(this.template({ subbreddits: this.collection}));
+            return this:
+        }
+
+        });   **/
+
+
+        </script>
     </body>
 </html>
 
