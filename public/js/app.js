@@ -8,6 +8,12 @@ var LaneModel = Backbone.Model.extend({
 })
 
 
+
+
+
+
+/** Snippets written in Class
+
 var subredditsListView = new SubbredditsListView({ collection: subbreddits});
 
 subbredditsListView render();
@@ -32,4 +38,5 @@ var SubbredditsListView = Backbone.View.extend({
 
 })
 
+**/ 
 
